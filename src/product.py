@@ -1,5 +1,6 @@
 import pandas as pd
 import requests
+import re
 
 class Product:
     def __init__(self):
