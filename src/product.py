@@ -1,5 +1,5 @@
 import pandas as pd
-
+import requests
 
 class Product:
     def __init__(self):
