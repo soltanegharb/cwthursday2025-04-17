@@ -183,3 +183,4 @@ if __name__ == '__main__':
         stock()
     else:
         print("Invalid choice. Please try again.")
+        print("hello")
