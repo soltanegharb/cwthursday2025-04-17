@@ -5,7 +5,7 @@ class Product:
     def __init__(self):
         self.df = pd.read_csv('../datas/data.csv')
 
-    # with the pd.concat function we add our value to our datasheet
+    """ with the pd.concat function we add our value to our datasheet"""
     def add_product(self, product):
         new_df = pd.DataFrame([product])
         self.df = pd.concat([self.df, new_df], ignore_index=True)
